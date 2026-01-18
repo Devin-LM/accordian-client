@@ -15,7 +15,10 @@ function MessageBox() {
            // justifyContent="flex-end" # DO NOT USE THIS WITH 'scroll'
           }}>
       <Stack direction='column'>
-          <Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message /><Message />
+            <Message usr={{abrev:"TT", full:"Testing Tester", img:"../public/vite.svg"}} msg={"Testing"} />
+
+            <Message usr={{abrev:"AA", full:"Abrams Asshole", img:"../public/tauri.svg"}} msg={"I literally hate this other guy"} />
+
       </Stack>
       </Box>
   )
