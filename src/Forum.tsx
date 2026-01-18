@@ -37,6 +37,7 @@ function Forum() {
             <FriendBox />
 
             </Container>
+
         </Container>
     )
 }
